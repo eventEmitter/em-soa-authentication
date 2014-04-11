@@ -1,0 +1,40 @@
+{
+    "name"                          : "em-soa-authentication"
+    , "description"                 : "authentication middleware for ee-service"
+    , "keywords"                    : ["soa", "authentication", "user", "ee-service"]
+    , "version"                     : "0.1.0"
+    , "author": {
+        "name"                      : "Tobias Kneubuehler"
+        , "email"                   : "tobias@joinbox.com"
+    }
+    , "licence"                     : "mit"
+    , "repository": {
+        "url"                       : "https://github.com/eventEmitter/em-soa-authentication"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">= 0.10.26"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/em-soa-authentication/issues"
+        , "email"                   : "tobias@joinbox.com"
+    }
+    , "dependencies": {
+        "ee-class"                  : "*"
+        , "ee-log"                  : "*"
+        , "ee-project"              : "*"
+        , "ee-types"                : "*"
+        , "ee-orm"                  : "*"
+        , "ee-mysql-connection"     : "*"
+        , "em-rest-service"         : "*"
+    }
+    , "devDependencies": {
+        "mocha"                     : "*"
+        , "ee-webservice"           : "*"
+    }
+    , "optionalDependencies": {}
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+    , "private"                     : true
+}
