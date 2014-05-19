@@ -20,21 +20,14 @@
         , "email"                   : "tobias@joinbox.com"
     }
     , "dependencies": {
-        "ee-class"                  : "*"
-        , "ee-log"                  : "*"
-        , "ee-project"              : "*"
-        , "ee-types"                : "*"
-        , "ee-orm"                  : "*"
-        , "ee-mysql-connection"     : "*"
-        , "em-rest-service"         : "*"
+          "ee-class"                : "0.4.x"
+        , "ee-log"                  : "0.2.x"
     }
     , "devDependencies": {
-        "mocha"                     : "*"
-        , "ee-webservice"           : "*"
+          "mocha"                   : "1.19.*"
     }
     , "optionalDependencies": {}
     , "scripts": {
         "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
     }
-    , "private"                     : true
 }
