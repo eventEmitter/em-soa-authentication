@@ -2,7 +2,7 @@
     "name"                          : "em-soa-authentication"
     , "description"                 : "authentication middleware for ee-service"
     , "keywords"                    : ["soa", "authentication", "user", "ee-service"]
-    , "version"                     : "0.1.0"
+    , "version"                     : "0.1.1"
     , "author": {
         "name"                      : "Tobias Kneubuehler"
         , "email"                   : "tobias@joinbox.com"
