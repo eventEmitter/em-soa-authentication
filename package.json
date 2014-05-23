@@ -2,7 +2,7 @@
     "name"                          : "em-soa-authentication"
     , "description"                 : "authentication middleware for ee-service"
     , "keywords"                    : ["soa", "authentication", "user", "ee-service"]
-    , "version"                     : "0.1.1"
+    , "version"                     : "0.1.2"
     , "author": {
         "name"                      : "Tobias Kneubuehler"
         , "email"                   : "tobias@joinbox.com"
@@ -20,7 +20,7 @@
         , "email"                   : "tobias@joinbox.com"
     }
     , "dependencies": {
-          "ee-class"                : "0.4.x"
+          "ee-class"                : "1.0.x"
         , "ee-log"                  : "0.2.x"
     }
     , "devDependencies": {
